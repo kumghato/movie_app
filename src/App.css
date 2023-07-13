@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
+/*=============Navbar==============*/
+
+.Navbar {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+    width: 15rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav_elements {
+    margin-left: auto;
+
 }
 
-.App-link {
-  color: #61dafb;
+.pagination {
+    display: flex;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-link {
+    margin: 10px;
+}
+
+.option__menu {
+    background-color: transparent;
+    color: white;
+    padding: 0.4rem 2rem;
+    border-radius: 4px;
+    margin: auto 2rem;
+    font-weight: 700;
+    border: 0.5px solid;
+}
+
+.btn {
+    background-color: #E50914;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    border: solid #E50914;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+
+/*==========Home section===========*/
+
+.background_image {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -2;
+    position: absolute;
+}
+
+.background_color {
+    background: rgb(0 0 0 / 60%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.home_info,
+.getting_started {
+    font-size: x-large;
+    color: white;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
+
+.Sub_header__1,
+.Home__para,
+.sign_in_header {
+    line-height: 2;
+}
+
+.Header__1 {
+    line-height: 2;
+    font-weight: 900;
+}
+
+.btn_signUp {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #E50914;
+    color: white;
+    padding: 1rem 3rem;
+    border: #E50914 solid 0.5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.email {
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 60%);
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border: gray;
+    width: 30%;
+    border: gray solid 0.5px;
+    border-radius: 4px;
+}
+
+/*=============Login Page==============*/
+.login_container {
+    width: 100%;
+}
+
+.card {
+    background-color: rgba(0, 0, 1, 50%);
+    padding: 4rem;
+    margin: 3.5rem auto 0;
+    width: 15%;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.email_login {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 60%);
+    color: white;
+    padding: 1rem 0 1rem 0.2rem;
+    margin: 1rem 0;
+    border: gray solid 0.5px;
+    border-radius: 4px;
+}
+
+.btn_login {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 3rem;
+    font-weight: 700;
+    background-color: #E50914;
+    color: white;
+    padding: 1rem;
+    border: #E50914 solid 0.5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.help_feature input,
+label,
+a {
+    font-size: 12px;
+    cursor: pointer;
+    color: gray;
+    font-weight: 600;
+}
+
+.help_feature {
+    display: flex;
+    align-items: center;
+}
+
+.help_feature label {
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+/*==================Dashboard==================*/
+.dashBoard_nav {
+    background-color: black;
+    width: 100%;
+
+}
+
+.container_dash {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.row_dash {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card_dash {
+    margin: 3rem 0.5rem;
+    text-align: center;
+    width: 18rem;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(59, 58, 58, 40%);
+}
+
+.poster {
+    width: 18rem;
+    border-radius: 10px;
+}
+
+.card-title {
+    padding: 0.5rem 0.3rem;
+    font-size: 1rem;
+    font-weight: 300;
 }
